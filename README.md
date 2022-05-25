@@ -4,28 +4,24 @@ For quick development I have collect some dev solutions
 # PG command for mac
 ![pg-command](https://user-images.githubusercontent.com/18096618/169646141-00b5c7b4-6b4b-497a-be20-fa4a33f82e24.jpg)
 
-If you installed using HomeBrew, to check status `brew info postgres` and version `psql --version`
+### Problem
+This sometimes happens when brew does a postgres upgrade, causing the data files to become incompatible with the new server.
+In my case, it happened when upgrading from 13 to 14.3.
 
-To migrate existing data from a previous major version of PostgreSQL run: `brew postgresql-upgrade-database`
-  
-# Install/ Uninstall
-Uninstall pg: `gem uninstall pg`
+**OS X/Homebrew:**
 
-Uninstall postgres: `brew uninstall postgres`
+Try running `postgres -D /usr/local/var/postgres`, it will give you a much more verbose output if postgres fails to start. [Link here](https://stackoverflow.com/questions/13410686/postgres-could-not-connect-to-server)
 
+If you recently upgraded postgres to latest version, you can run the below command to upgrade your postgres data directory retaining all data: `brew postgresql-upgrade-database`. [Link here](https://stackoverflow.com/questions/17822974/postgres-fatal-database-files-are-incompatible-with-server)
 
-Nuke the postgres folder which might be lingering with a bunch of stale stuff it in: `rm -rf /usr/local/var/postgres`
-
-Reboot (maybe unnecessary)
-
-Reinstall pg: `brew install postgres`
-
-
-I use brew services which has simplified my life in so many ways: `brew install services`
-
-
-And start pg with it: `brew services start postgresql`
-
-
-Reinstall the gem: `gem install pg`
+| Command | Description |
+| ------ | ------ |
+| `brew info postgres` | Status check |
+| `psql --version` | Version check |
+| `brew postgresql-upgrade-database` | To migrate existing data from a previous major version of PostgreSQL |
+| `gem uninstall pg` | Uninstall pg |
+| `brew uninstall postgres` | Uninstall brew postgres |
+| `rm -rf /usr/local/var/postgres` | Nuke the postgres folder which might be lingering with a bunch of stale stuff it in |
+| `brew install postgres` | Reinstall pg |
+| `gem install pg` | Reinstall gem |
 
