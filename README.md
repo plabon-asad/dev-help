@@ -28,3 +28,4 @@ If you recently upgraded postgres to latest version, you can run the below comma
 | `brew install postgres` | Reinstall pg |
 | `gem install pg` | Reinstall gem |
 
+### Ruby on Rails - [Help](https://github.com/plabon-asad/study-with-ror)
