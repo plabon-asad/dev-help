@@ -1,4 +1,4 @@
-# dev-help
+# Self Development Help
 For quick development I have collect some dev solutions
 
 # SHELL
