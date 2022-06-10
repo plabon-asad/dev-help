@@ -27,5 +27,8 @@ If you recently upgraded postgres to latest version, you can run the below comma
 | `rm -rf /usr/local/var/postgres` | Nuke the postgres folder which might be lingering with a bunch of stale stuff it in |
 | `brew install postgres` | Reinstall pg |
 | `gem install pg` | Reinstall gem |
+| `psql -U username` | PG login by terminal |
+| `\l` or `\list` | To view all of the defined databases on the server you can use. [Link here](https://chartio.com/resources/tutorials/how-to-list-databases-and-tables-in-postgresql-using-psql/) |
+
 
 ### Ruby on Rails - [Help](https://github.com/plabon-asad/study-with-ror)
