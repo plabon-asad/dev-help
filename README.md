@@ -4,6 +4,19 @@ For quick development I have collect some dev solutions
 # SHELL
 Which shell you are using check `echo $SHELL`
 
+# Git & Github
+
+✏️ How to Push an Existing Project to GitHub?
+
+- `git init`
+- `git add .`
+- `git commit -m 'Added my project'`
+- `git remote add origin git@github.com:github_user-name/project-repo-name.git`
+- `git push -u origin master`
+- `git push -u -f origin master // for forcely push`
+
+[Link here](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
+
 # PG command for mac
 ![pg-command](https://user-images.githubusercontent.com/18096618/169646141-00b5c7b4-6b4b-497a-be20-fa4a33f82e24.jpg)
 
