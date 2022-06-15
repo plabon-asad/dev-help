@@ -29,6 +29,8 @@ If you recently upgraded postgres to latest version, you can run the below comma
 | `gem install pg` | Reinstall gem |
 | `psql -U username` | PG login by terminal |
 | `\l` or `\list` | To view all of the defined databases on the server you can use. [Link here](https://chartio.com/resources/tutorials/how-to-list-databases-and-tables-in-postgresql-using-psql/) |
-
+| `DROP DATABASE db-name;` | After login console you can delete database|
+| `pg_dump name_of_database > name_of_backup_file.bak` | Backup your database [Link here](https://stackoverflow.com/questions/43018658/how-to-delete-postgresql-database-on-linux)|
+| `psql empty_database < backup_file.bak` | To restore database [Link here](https://stackoverflow.com/questions/43018658/how-to-delete-postgresql-database-on-linux)|
 
 ### Ruby on Rails - [Help](https://github.com/plabon-asad/study-with-ror)
