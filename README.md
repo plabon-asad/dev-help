@@ -46,4 +46,31 @@ If you recently upgraded postgres to latest version, you can run the below comma
 | `pg_dump name_of_database > name_of_backup_file.bak` | Backup your database [Link here](https://stackoverflow.com/questions/43018658/how-to-delete-postgresql-database-on-linux)|
 | `psql empty_database < backup_file.bak` | To restore database [Link here](https://stackoverflow.com/questions/43018658/how-to-delete-postgresql-database-on-linux)|
 
+# Deployment - Vue/heroku
+How to deploy a vue-static project deploy in heroku in production mode, `full config, create, run, and deploy`.
+
+| :warning: Regarding Previous Versions.          |
+|:---------------------------|
+| The package name changed from `vue-cli` to `@vue/cli`. If you have the previous `vue-cli` (1.x or 2.x) package installed globally, you need to uninstall it first with `npm uninstall vue-cli -g` or `yarn global remove vue-cli`.  |
+
+
+1. Install Veu CLI by **npm** or **yarn** `npm install -g @vue/cli` or `yarn global add @vue/cli`
+2. Check Vue version `vue --version` and any help of cammand `vue --help`
+3. Make a project of Vue `vue create project-name` and select by it one pacage manager like`npm` or `yarn`.
+4. Go to project directory `cd /project_dir` and run `yarn serve`
+5. To create a production build, run `yarn build`.
+6. For convenience, this can be added to `package.json` scripts. [Link here](https://stackoverflow.com/questions/47034452/how-to-run-production-site-after-build-vue-cli)
+```json
+"scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "production": "vue-cli-service serve --mode production"
+  }
+```
+and run `yarn run production`.<br>
+7. Deployment [Heroku](https://cli.vuejs.org/guide/deployment.html#heroku) and [read doc here](https://cli.vuejs.org/guide/deployment.html)
+
+
+
 ### Ruby on Rails - [Help](https://github.com/plabon-asad/study-with-ror)
