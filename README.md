@@ -19,6 +19,7 @@ Which shell you are using check `echo $SHELL`
 
 # PG command for mac
 ![pg-command](https://user-images.githubusercontent.com/18096618/169646141-00b5c7b4-6b4b-497a-be20-fa4a33f82e24.jpg)
+Create a local server by PG-Admin - [See here](https://stackoverflow.com/questions/53267642/create-new-local-server-in-pgadmin)
 
 ### Problem
 This sometimes happens when brew does a postgres upgrade, causing the data files to become incompatible with the new server.
