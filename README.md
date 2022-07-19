@@ -33,6 +33,7 @@ If you recently upgraded postgres to latest version, you can run the below comma
 
 | Command | Description |
 | ------ | ------ |
+| `brew services list` | All install status to see from Homebrew |
 | `brew info postgres` | Status check |
 | `psql --version` | Version check |
 | `brew postgresql-upgrade-database` | To migrate existing data from a previous major version of PostgreSQL |
