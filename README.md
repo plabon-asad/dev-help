@@ -4,6 +4,9 @@ For quick development I have collect some dev solutions
 # SHELL
 Which shell you are using check `echo $SHELL`
 
+To check apache version `httpd -v`<br>
+Find username of PC `whoami`
+
 # Git & Github
 
 ✏️ How to Push an Existing Project to GitHub?
