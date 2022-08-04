@@ -24,6 +24,11 @@ Find username of PC `whoami`
 ![pg-command](https://user-images.githubusercontent.com/18096618/169646141-00b5c7b4-6b4b-497a-be20-fa4a33f82e24.jpg)
 Create a local server by PG-Admin - [See here](https://stackoverflow.com/questions/53267642/create-new-local-server-in-pgadmin)
 
+### :warning: PG install broken some times
+
+Should link up broken pg `brew link postgresql`. [See here](https://stackoverflow.com/questions/27700596/homebrew-postgres-broken)
+![pg-broken-link-up](https://user-images.githubusercontent.com/18096618/182824573-7dc9be5a-2380-4768-a69d-a64674266bee.jpg)
+
 ### Problem
 This sometimes happens when brew does a postgres upgrade, causing the data files to become incompatible with the new server.
 In my case, it happened when upgrading from 13 to 14.3.
