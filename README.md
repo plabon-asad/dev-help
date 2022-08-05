@@ -20,6 +20,9 @@ Find username of PC `whoami`
 
 [Link here](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
 
+# Git Diff - Compare 2 files see their different and set results.
+[Link here](https://www.atlassian.com/git/tutorials/saving-changes/git-diff)
+
 # PG command for mac
 ![pg-command](https://user-images.githubusercontent.com/18096618/169646141-00b5c7b4-6b4b-497a-be20-fa4a33f82e24.jpg)
 Create a local server by PG-Admin - [See here](https://stackoverflow.com/questions/53267642/create-new-local-server-in-pgadmin)
