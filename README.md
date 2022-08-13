@@ -84,6 +84,6 @@ How to deploy a vue-static project deploy in heroku in production mode, `full co
 and run `yarn run production`.<br>
 7. Deployment [Heroku](https://cli.vuejs.org/guide/deployment.html#heroku) and [read doc here](https://cli.vuejs.org/guide/deployment.html)
 
-
+# Google - [Effective and efficient search](https://www.freecodecamp.org/news/how-to-google-like-a-pro-10-tips-for-effective-googling/)
 
 ### Ruby on Rails - [Help](https://github.com/plabon-asad/study-with-ror)
