@@ -86,4 +86,14 @@ and run `yarn run production`.<br>
 
 # Google - [Effective and efficient search](https://www.freecodecamp.org/news/how-to-google-like-a-pro-10-tips-for-effective-googling/)
 
+# Folder & File
+
+```
+    touch filename //Make a file
+    mkdir -p foldername //Make a folder
+    mkdir -p foldername/sub-folder //Make a folder with subfolder
+    mkdir -p foldername/sub-folder && touch foldername/sub-folder/{file1.txt,file2.txt,file3.txt} //Make folder, sub-folder and multiple files
+    
+```
+
 ### Ruby on Rails - [Help](https://github.com/plabon-asad/study-with-ror)
