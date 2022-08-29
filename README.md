@@ -2,25 +2,21 @@
 For quick development I have collect some dev solutions
 
 # SHELL
-Which shell you are using check `echo $SHELL`
-
-To check apache version `httpd -v`<br>
-Find username of PC `whoami`
+Find username of PC `whoami`. Which shell you are using check `echo $SHELL`. To check apache version `httpd -v`
 
 # Git & Github
+✏️ How to Push an Existing Project to GitHub? [See here](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
 
-✏️ How to Push an Existing Project to GitHub?
+| Command | Description |
+| ------ | ------ |
+| `git init` | Initialize git |
+| `git add .` | Add all file |
+| `git commit -m 'Write commit title or msg'` | Add a commit title |
+| `git remote add origin git@github.com:github_user-name/project-repo-name.git` | Add origin of git repo |
+| `git push -u origin master` | Push first commit in Github |
+|or  `git push -u -f origin master` | For forcely push |
 
-- `git init`
-- `git add .`
-- `git commit -m 'Added my project'`
-- `git remote add origin git@github.com:github_user-name/project-repo-name.git`
-- `git push -u origin master`
-- `git push -u -f origin master // for forcely push`
-
-[Link here](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
-
-# Git Diff - Compare 2 files see their different and set results.
+### Git Diff - Compare 2 files see their different and set results.
 [Link here](https://www.atlassian.com/git/tutorials/saving-changes/git-diff)
 
 # PG command for mac
