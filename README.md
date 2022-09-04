@@ -4,6 +4,23 @@ For quick development I have collect some dev solutions
 # SHELL
 Find username of PC `whoami`. Which shell you are using check `echo $SHELL`. To check apache version `httpd -v`
 
+# SSH Key generate and config
+You might already have an SSH key pair on your machine. You can check to see if one exists by moving to your `.ssh` directory and listing the contents
+```
+cd ~/.ssh
+ls
+```
+
+Generate a new `SSH-Key`, hit enter to accept the default location and passphrase
+```
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+Add your public key to GitHub, We now need to tell GitHub about your public key. Display the contents of your new public key file with `cat`:
+```
+cat ~/.ssh/id_rsa.pub
+```
+Just copy it from terminal and add it on github. After added you can check the status of ssh-key: `ssh -T git@github.com`
+
 # Git & Github
 ✏️ How to Push an Existing Project to GitHub? [See here](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
 
